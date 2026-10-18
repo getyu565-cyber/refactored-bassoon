@@ -1,0 +1,22 @@
+{
+  "name": "tanstack-start-gh-pages",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "deploy": "gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.0.0",
+    "@tanstack/start": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vinxi": "^0.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
